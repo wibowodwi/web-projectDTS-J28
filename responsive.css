@@ -1,0 +1,82 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .testimoni {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .testimoni {
+      width: 100%;
+    }
+    .logo {
+      width: 90px;
+      margin-top: -10px;
+      margin-left: 60px;
+    }
+    
+    
+    footer {
+      text-align: center;
+    }
+    
+    .btn {
+      width: 70%;
+    }
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    .test-wrapper img{
+      width: 300px;
+      border-radius: 10%;
+      box-shadow: 7px 7px #94a39a;
+    }
+    
+    .test-wrapper img:hover{
+      width: 310px;
+    }
+  
+    .header-right{
+      display:none;
+    }
+    
+
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .member-wrapper h2{
+      color: rgb(133, 133, 133);
+      opacity: 1.5;
+    }
+    .member-wrapper h3{
+      color: rgb(133, 133, 133);
+      opacity: 1.5;
+    }
+    .member-wrapper p{
+      color: rgb(255, 255, 255);
+      opacity: 1.5;
+    }
+
+  }
